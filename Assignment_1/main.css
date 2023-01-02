@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+}
+
+#assignment-instructions{
+    color: aquamarine;
+    font-family: sans-serif;
+}
+
+code{
+    font-family: monospace;
+    color: red;
+}
+
+.second-item code{
+    color: green;
+}
+
+.second-item{
+    background-color: black;
+    color: white;
+}
+.second-item ~ li{
+    background-color: black;
+    color: white;
+} 
+/* Better version 
+li + li{
+    background-color: black;
+    color: white;
+}
+*/
+
+ol > li{ /* ol li works to*/
+    background-color: black;
+    color: white;
+}
