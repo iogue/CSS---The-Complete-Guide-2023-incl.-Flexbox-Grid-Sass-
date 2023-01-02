@@ -1,0 +1,14 @@
+{
+    "name": "sass-01-installing-sass-starting-code",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "scss": "sass --watch main.scss main1.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "sass": "^1.57.1"
+    }
+}
